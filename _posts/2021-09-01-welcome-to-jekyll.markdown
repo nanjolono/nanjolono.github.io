@@ -139,7 +139,9 @@ git reset
 那么先观察一下当前的代码库状态
 (img)
 在当前的情况下，所有的代码已经提交推送了。那么此时my first commit这一次提交我提交了错误的文件，想要撤回这一次推送，然后重新提交，但是还想保留my first commit修改的内容。那么就需要使用到
+```bash
 git reset --soft [想要回退到的指定的版本号]
+```
 那么在这里，执行的命令就是
 git reset --soft 35c354985f5ead59710566a8efbd7332b6f5ee2c
 (img)
